@@ -148,7 +148,7 @@ FAQ
 * Can't build go-sqlite3 on windows 64bit.
 
     > Probably, you are using go 1.0, go1.0 has a problem when it comes to compiling/linking on windows 64bit.
-    > See: [#27](https://github.com/mattn/go-sqlite3/issues/27)
+    > See: [#27](https://github.com/samuelbetio/go-sqlite3/issues/27)
 
 * Getting insert error while query is opened.
 
@@ -157,7 +157,7 @@ FAQ
 
 * Do you want to cross compile? mingw on Linux or Mac?
 
-    > See: [#106](https://github.com/mattn/go-sqlite3/issues/106)
+    > See: [#106](https://github.com/samuelbetio/go-sqlite3/issues/106)
     > See also: http://www.limitlessfx.com/cross-compile-golang-app-for-windows-from-linux.html
 
 * Want to get time.Time with current locale
@@ -166,7 +166,7 @@ FAQ
 
 * Can I use this in multiple routines concurrently?
 
-    Yes for readonly. But, No for writable. See [#50](https://github.com/mattn/go-sqlite3/issues/50), [#51](https://github.com/mattn/go-sqlite3/issues/51), [#209](https://github.com/mattn/go-sqlite3/issues/209).
+    Yes for readonly. But, No for writable. See [#50](https://github.com/samuelbetio/go-sqlite3/issues/50), [#51](https://github.com/mattn/go-sqlite3/issues/51), [#209](https://github.com/mattn/go-sqlite3/issues/209).
 
 * Why is it racy if I use a `sql.Open("sqlite3", ":memory:")` database?
 
@@ -180,7 +180,7 @@ FAQ
 License
 -------
 
-MIT: http://mattn.mit-license.org/2012
+MIT: http://samuelbetio.mit-license.org/2012
 
 sqlite3-binding.c, sqlite3-binding.h, sqlite3ext.h
 
@@ -191,4 +191,4 @@ In this repository, those files are an amalgamation of code that was copied from
 Author
 ------
 
-Yasuhiro Matsumoto (a.k.a mattn)
+Samuel Betio (a.k.a samuelbetio)
